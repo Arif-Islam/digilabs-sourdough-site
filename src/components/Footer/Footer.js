@@ -4,8 +4,6 @@ import fb from '../../images/Facebook.png';
 import insta from '../../images/Instagram.png';
 import twitter from '../../images/Twitter.png';
 import yt from '../../images/YouTube.png';
-import appleStore from '../../images/apple store.png';
-import playStore from '../../images/play store.png';
 import apple from '../../images/Apple_App_Store.png';
 import play from '../../images/Google_Play.png';
 
@@ -29,7 +27,7 @@ const Footer = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='w-full lg:w-[150px] mx-auto'>
+                        <div className='w-full lg:w-[170px] mx-auto'>
                             <div className='flex flex-col items-start justify-start space-y-2'>
                                 <p className='text-white font-semibold text-lg'>Company</p>
                                 <p className='text-[#FAFAFA] font-normal text-lg'>About us</p>
@@ -55,13 +53,13 @@ const Footer = () => {
                                 <p className='text-[#FAFAFA] font-normal text-lg'>Product</p>
                             </div>
                         </div>
-                        <div className='w-full lg:w-[180px] lg:mr-6'>
+                        <div className='w-full lg:w-[200px] lg:mr-6'>
                             <div className='flex items-center justify-center bg-[#FAFAFA]  rounded-lg py-2 px-6 gap-1 hover:cursor-pointer hover:bg-gray-100 transition duration-400 ease-in-out'>
                                 <img src={apple} alt="" />
-                                <p className='text-[#171740] text-lg font-semibold '>Apple Store</p>
+                                <p className='text-[#171740] text-lg font-semibold '>App Store</p>
                             </div>
                         </div>
-                        <div className='w-full lg:w-[180px]'>
+                        <div className='w-full lg:w-[200px]'>
                             <div className='flex items-center justify-center bg-[#FAFAFA]  rounded-lg py-2 px-6 gap-1 hover:cursor-pointer hover:bg-gray-100 transition duration-400 ease-in-out'>
                                 <img className='' src={play} alt="" />
                                 <p className='text-[#171740] text-lg font-semibold '>Play Store</p>
