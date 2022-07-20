@@ -3,7 +3,7 @@ import img from '../../../images/image 1.png'
 
 const Banner = () => {
     return (
-        <div className='flex flex-col lg:flex-row gap-6 mt-8 lg:mt-16 w-11/12 md:w-4/5 lg:w-11/12 2xl:w-full mx-auto'>
+        <div className='flex flex-col lg:flex-row gap-6 py-10 lg:py-16 w-11/12 md:w-4/5 lg:w-11/12 2xl:w-full mx-auto'>
             <div className='space-y-6 lg:space-y-8 lg:w-1/2'>
                 <p className='font-semibold text-[#171740] text-[40px] lg:text-6xl '>Lorem ipsum dolor sit amet.</p>
                 <p className='text-[#242464] font-normal text-2xl'>Praesent placerat ipsum nec mi maximus, vel cursus mauris cursus. Vivamus cursus ante eget orci egestas malesuada.</p>
