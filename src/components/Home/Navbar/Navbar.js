@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Navbar.css';
-import { Link, NavLink, useNavigate } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
 import logo from '../../../images/Combined Shape Copy 2.png'
 import { CgMenuRight, CgMenuLeft } from 'react-icons/cg';
 
