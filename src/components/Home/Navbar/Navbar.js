@@ -13,7 +13,7 @@ const Navbar = () => {
         navigate('/');
     }
     return (
-        <div className='sticky top-0 z-20 py-6'>
+        <div className='py-6'>
             <div className='hidden lg:block lg:w-11/12 mx-auto 2xl:w-full'>
                 <div className='flex items-center justify-between'>
                     <div className='flex items-center space-x-8'>

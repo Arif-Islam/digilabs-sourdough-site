@@ -4,7 +4,7 @@ import check from '../../../images/Check white.png';
 
 const StandardCard = () => {
     return (
-        <div className='bg-[#5555FF] lg:w-[300px] xl:w-96 rounded-2xl shadow-lg text-[#171740] px-8 py-6 hover:shadow-xl transform transition hover:-translate-y-2 duration-500 ease-in-out'>
+        <div className='bg-[#5555FF] w-full lg:w-[300px] xl:w-96 rounded-2xl shadow-lg text-[#171740] px-8 py-6 hover:shadow-xl transform transition hover:-translate-y-2 duration-500 ease-in-out'>
             <div className='uppercase text-[#171740] font-normal text-sm bg-[#FCAF3B] inline-block py-[7px] px-[16px] mb-4 rounded-lg'>
                 <p className=''>Most Popular</p>
             </div>
